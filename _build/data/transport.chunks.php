@@ -13,6 +13,24 @@ $tmp = array(
         'file' => 'office',
         'description' => '',
     ),
+    // Footer chunk
+    'tpl.eweUiTheme.footer-v1' => array(
+        'file' => 'footer-v1',
+        'description' => 'Footer version 1',
+    ),
+    'tpl.eweUiTheme.footer-v2' => array(
+        'file' => 'footer-v2',
+        'description' => 'Footer version 2',
+    ),
+    'tpl.eweUiTheme.footer-v3' => array(
+        'file' => 'footer-v3',
+        'description' => 'Footer version 3',
+    ),
+    'tpl.eweUiTheme.footer-v4' => array(
+        'file' => 'footer-v4',
+        'description' => 'Footer version 4',
+    ),
+
 );
 
 // Save chunks for setup options

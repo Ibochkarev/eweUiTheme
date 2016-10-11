@@ -5,8 +5,8 @@
 $snippets = array();
 
 $tmp = array(
-    'eweUiTheme' => array(
-        'file' => 'eweuitheme',
+    'eweUiTheme.year' => array(
+        'file' => 'year',
         'description' => '',
     ),
 );

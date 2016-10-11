@@ -15,7 +15,7 @@
             [[$aside]]
         </aside>
     </section>
-    [[$footer]]
+    [[$tpl.eweUiTheme.footer-v1]]
 </div>
 [[+MinifyX.javascript]]
 </body>
