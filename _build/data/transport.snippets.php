@@ -5,8 +5,8 @@
 $snippets = array();
 
 $tmp = array(
-    'modExtra' => array(
-        'file' => 'modextra',
+    'eweUiTheme' => array(
+        'file' => 'eweuitheme',
         'description' => '',
     ),
 );

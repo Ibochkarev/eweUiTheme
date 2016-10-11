@@ -5,11 +5,11 @@
 $chunks = array();
 
 $tmp = array(
-    'tpl.modExtra.item' => array(
+    'tpl.eweUiTheme.item' => array(
         'file' => 'item',
         'description' => '',
     ),
-    'tpl.modExtra.office' => array(
+    'tpl.eweUiTheme.office' => array(
         'file' => 'office',
         'description' => '',
     ),

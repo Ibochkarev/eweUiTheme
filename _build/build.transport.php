@@ -10,9 +10,9 @@ header('Content-Type:text/html;charset=utf-8');
 
 require_once 'build.config.php';
 // Refresh model
-if (file_exists('build.model.php')) {
-    require_once 'build.model.php';
-}
+//if (file_exists('build.model.php')) {
+//    require_once 'build.model.php';
+//}
 
 // define sources
 $root = dirname(dirname(__FILE__)) . '/';
@@ -27,6 +27,7 @@ $sources = array(
     'lexicon' => $root . 'core/components/' . PKG_NAME_LOWER . '/lexicon/',
     'docs' => $root . 'core/components/' . PKG_NAME_LOWER . '/docs/',
     'pages' => $root . 'core/components/' . PKG_NAME_LOWER . '/elements/pages/',
+    'templates' => $root.'core/components/'.PKG_NAME_LOWER.'/elements/templates/',
     'source_assets' => $root . 'assets/components/' . PKG_NAME_LOWER,
     'source_core' => $root . 'core/components/' . PKG_NAME_LOWER,
 );
@@ -202,6 +203,38 @@ if (defined('BUILD_CHUNK_UPDATE')) {
     if (!is_array($chunks)) {
         $modx->log(modX::LOG_LEVEL_ERROR, 'Could not package in chunks.');
     } else {
+        $category->addMany($chunks);
+        $modx->log(modX::LOG_LEVEL_INFO, 'Packaged in ' . count($chunks) . ' chunks.');
+    }
+}
+
+/* add templates */
+if (defined('BUILD_TEMPLATE_UPDATE')) {
+    $attr[xPDOTransport::RELATED_OBJECT_ATTRIBUTES]['Templates'] = array (
+        xPDOTransport::PRESERVE_KEYS => false,
+        xPDOTransport::UPDATE_OBJECT => BUILD_TEMPLATE_UPDATE,
+        xPDOTransport::UNIQUE_KEY => 'templatename',
+    );
+    $templates = include $sources['data'].'transport.templates.php';
+    if (!is_array($templates)) {
+        $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in templates.');
+    } else {
+        $category->addMany($templates);
+        $modx->log(modX::LOG_LEVEL_INFO,'Packaged in '.count($templates).' templates.');
+    }
+}
+/* add chunks */
+if (defined('BUILD_CHUNK_UPDATE')) {
+    $attr[xPDOTransport::RELATED_OBJECT_ATTRIBUTES]['Chunks'] = array(
+        xPDOTransport::PRESERVE_KEYS => false,
+        xPDOTransport::UPDATE_OBJECT => BUILD_CHUNK_UPDATE,
+        xPDOTransport::UNIQUE_KEY => 'name',
+    );
+    $chunks = include $sources['data'] . 'transport.chunks.php';
+    if (!is_array($chunks)) {
+        $modx->log(modX::LOG_LEVEL_ERROR, 'Could not package in chunks.');
+    }
+    else {
         $category->addMany($chunks);
         $modx->log(modX::LOG_LEVEL_INFO, 'Packaged in ' . count($chunks) . ' chunks.');
     }
