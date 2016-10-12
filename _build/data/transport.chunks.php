@@ -13,6 +13,24 @@ $tmp = array(
         'file' => 'office',
         'description' => '',
     ),
+    // Catalog view products
+    'tpl.eweUiTheme.msProducts-1' => array(
+        'file' => 'msProducts-1',
+        'description' => '',
+    ),
+    'tpl.eweUiTheme.msProducts-2' => array(
+        'file' => 'msProducts-2',
+        'description' => '',
+    ),
+    'tpl.eweUiTheme.msProducts-3' => array(
+        'file' => 'msProducts-3',
+        'description' => '',
+    ),
+    'tpl.eweUiTheme.msProducts.row' => array(
+        'file' => 'msProducts.row',
+        'description' => '',
+    ),
+
     // Footer chunk
     'tpl.eweUiTheme.footer-v1' => array(
         'file' => 'footer-v1',
