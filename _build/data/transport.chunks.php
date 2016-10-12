@@ -5,12 +5,9 @@
 $chunks = array();
 
 $tmp = array(
-    'tpl.eweUiTheme.item' => array(
-        'file' => 'item',
-        'description' => '',
-    ),
-    'tpl.eweUiTheme.office' => array(
-        'file' => 'office',
+    // Base chunk
+    'tpl.eweUiTheme.head' => array(
+        'file' => 'head',
         'description' => '',
     ),
     // Catalog view products
@@ -30,7 +27,11 @@ $tmp = array(
         'file' => 'msProducts.row',
         'description' => '',
     ),
-
+    // Product content
+    'tpl.eweUiTheme.msProduct.content-1' => array(
+        'file' => 'msProduct.content-1',
+        'description' => '',
+    ),
     // Footer chunk
     'tpl.eweUiTheme.footer-v1' => array(
         'file' => 'footer-v1',

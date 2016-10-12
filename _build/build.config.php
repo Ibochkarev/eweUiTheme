@@ -50,4 +50,5 @@ $BUILD_RESOLVERS = array(
     'chunks',
     'templates',
     'setup',
+    'resources',
 );

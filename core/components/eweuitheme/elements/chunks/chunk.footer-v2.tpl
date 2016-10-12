@@ -48,7 +48,7 @@
                 <div class="col-md-9 col-sm-12 col-xs-12">
                     <div class="footer-copyright">
                         <img src="" alt="">
-                        <div class="copyright">2005-2016   &copy; Bis-lab.ru</div>
+                        <div class="copyright">[[!eweUiTheme.year? &start=`2016`]] &copy; [[++site_name]]</div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-12 col-xs-12">
