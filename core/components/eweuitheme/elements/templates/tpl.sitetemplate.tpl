@@ -16,7 +16,7 @@
         <section class="products">
 
             [[!msProducts?
-            &tpl=`tpl.ewe.msProducts.row`
+            &tpl=`tpl.eweUiTheme.msProducts.row`
             &parents=`2`
             &includeThumbs=`260x260`
             ]]
@@ -26,7 +26,7 @@
         <section class="products">
 
             [[!msProducts?
-            &tpl=`tpl.ewe.msProducts-1`
+            &tpl=`tpl.eweUiTheme.msProducts-1`
             &parents=`2`
             &includeThumbs=`260x260`
             ]]
@@ -36,7 +36,7 @@
         <section class="products">
 
             [[!msProducts?
-            &tpl=`tpl.ewe.msProducts-2`
+            &tpl=`tpl.eweUiTheme.msProducts-2`
             &parents=`2`
             &includeThumbs=`260x260`
             ]]
@@ -46,7 +46,7 @@
         <section class="products">
 
             [[!msProducts?
-            &tpl=`tpl.ewe.msProducts-3`
+            &tpl=`tpl.eweUiTheme.msProducts-3`
             &parents=`2`
             &includeThumbs=`260x260`
             ]]
