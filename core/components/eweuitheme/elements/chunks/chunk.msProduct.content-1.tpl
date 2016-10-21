@@ -1,6 +1,8 @@
 <div id="msProduct" class="row">
     <div class="col-md-6">
-        [[!msGallery]]
+        [[!msGallery?
+            &tpl=`tpl.eweUiTheme.msGallery`
+        ]]
     </div>
     <div class="col-md-6">
         <form class="form-horizontal ms2_form" method="post">

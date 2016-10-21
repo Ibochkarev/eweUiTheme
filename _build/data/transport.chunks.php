@@ -61,7 +61,11 @@ $tmp = array(
         'file' => 'footer-v4',
         'description' => 'Footer version 4',
     ),
-
+    // msGallery
+    'tpl.eweUiTheme.msGallery' => array(
+        'file' => 'msGallery',
+        'description' => '',
+    ),
 );
 
 // Save chunks for setup options
