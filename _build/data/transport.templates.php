@@ -5,6 +5,14 @@ $tmp = array(
 		'file' => 'sitetemplate',
 		'description' => 'Template for home page',
 	),
+	'EweUiTheme.catalog.row' => array(
+		'file' => 'catalog.row',
+		'description' => 'Template for catalog row page',
+	),
+	'EweUiTheme.product' => array(
+		'file' => 'product',
+		'description' => 'Template for product page',
+	),
 );
 foreach ($tmp as $k => $v) {
 	/* @avr modTemplate $template */

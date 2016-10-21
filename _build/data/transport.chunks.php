@@ -10,6 +10,10 @@ $tmp = array(
         'file' => 'head',
         'description' => '',
     ),
+    'tpl.eweUiTheme.script' => array(
+        'file' => 'script',
+        'description' => '',
+    ),
     // Catalog view products
     'tpl.eweUiTheme.msProducts-1' => array(
         'file' => 'msProducts-1',
@@ -21,6 +25,14 @@ $tmp = array(
     ),
     'tpl.eweUiTheme.msProducts-3' => array(
         'file' => 'msProducts-3',
+        'description' => '',
+    ),
+    'tpl.eweUiTheme.msProducts-4' => array(
+        'file' => 'msProducts-4',
+        'description' => '',
+    ),
+    'tpl.eweUiTheme.msProducts-5' => array(
+        'file' => 'msProducts-5',
         'description' => '',
     ),
     'tpl.eweUiTheme.msProducts.row' => array(

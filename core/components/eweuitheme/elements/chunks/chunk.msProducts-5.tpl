@@ -4,16 +4,6 @@
     <form method="post" class="ms2_form">
         <a href="{$id | url}">
 
-            <div class="product-image">
-                {if $thumb?}
-                    <img src="[[+260x260]]" itemprop="image" alt="{$pagetitle}" title="{$pagetitle}"/>
-                {else}
-                    <img src="{'assets_url' | option}components/minishop2/img/web/ms2_small.png"
-                         srcset="{'assets_url' | option}components/minishop2/img/web/ms2_small@2x.png 2x"
-                         itemprop="image" alt="{$pagetitle}" title="{$pagetitle}"/>
-                {/if}
-            </div>
-
             <div class="product-info" itemtype="http://schema.org/AggregateOffer" itemprop="offers" itemscope>
                 <meta itemprop="category" content="[[#[[+parent]].pagetitle]]">
                 <meta itemprop="brand" content="[[+vendor.name]]">
@@ -28,11 +18,30 @@
                 <h6 itemprop="name">{$pagetitle}</h6>
             </div>
 
+            <div class="product-image">
+                {if $thumb?}
+                    <img src="[[+260x260]]" itemprop="image" alt="{$pagetitle}" title="{$pagetitle}"/>
+                {else}
+                    <img src="{'assets_url' | option}components/minishop2/img/web/ms2_small.png"
+                         srcset="{'assets_url' | option}components/minishop2/img/web/ms2_small@2x.png 2x"
+                         itemprop="image" alt="{$pagetitle}" title="{$pagetitle}"/>
+                {/if}
+            </div>
+
             <div class="product-price">
                 {$price} RUB <!-- {'ms2_frontend_currency' | lexicon} -->
                 {if $old_price?}
                     <span class="last-price">{$old_price} RUB<!-- {'ms2_frontend_currency' | lexicon} --></span>
                 {/if}
+            </div>
+
+            <div class="product-footer">
+                <span class="rating">
+                    2
+                </span>
+                <span class="review">
+                    4 отзыва
+                </span>
             </div>
 
         </a>

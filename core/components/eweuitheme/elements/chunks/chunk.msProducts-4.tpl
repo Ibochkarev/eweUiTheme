@@ -26,6 +26,8 @@
                 {/if}
                 <h5 itemprop="brand">[[+vendor.name]]</h5>
                 <h6 itemprop="name">{$pagetitle}</h6>
+                <h6 itemprop="category">[[#[[+parent]].pagetitle]]</h6>
+
             </div>
 
             <div class="product-price">
