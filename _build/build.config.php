@@ -51,4 +51,5 @@ $BUILD_RESOLVERS = array(
     'templates',
     'setup',
     'resources',
+    'settings',
 );
