@@ -10,6 +10,7 @@
         <h1 class="title center-text">
             [[*pagetitle]]
         </h1>
+        [[$tpl.eweUiTheme.breadcrumbs-s1]]
     </div>
 
     <section class="products">

@@ -3,12 +3,12 @@
         <div class="row">
             <div class="footer-top">
                 <div class="col-md-9 col-sm-7 col-xs-12">
-                    <ul>
-                        <li><a href="#">Каталог</a></li>
-                        <li><a href="#">о компании</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
+                    [[pdoMenu?
+                        &parents=`0`
+                        &level=`1`
+                        &tplInner=`@INLINE [[+wrapper]]`
+                        &tplParentRow=`@INLINE <li[[+classes]]><a href="[[+link]]" [[+attributes]]>[[+menutitle]]</a></li>[[+wrapper]]`
+                    ]]
                 </div>
                 <div class="col-md-3 col-sm-5 col-xs-12">
                     <ul class="f-right">

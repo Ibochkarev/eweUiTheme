@@ -66,6 +66,11 @@ $tmp = array(
         'file' => 'msGallery',
         'description' => '',
     ),
+    // Breadcrumbs
+    'tpl.eweUiTheme.breadcrumbs-s1' => array(
+        'file' => 'breadcrumbs-s1',
+        'description' => '',
+    ),
 );
 
 // Save chunks for setup options
