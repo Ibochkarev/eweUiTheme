@@ -11,6 +11,7 @@
             [[*pagetitle]]
         </h1>
         [[$tpl.eweUiTheme.breadcrumbs-s1]]
+        [[$tpl.eweUiTheme.breadcrumbs-s2]]
     </div>
 
     <section class="products">
