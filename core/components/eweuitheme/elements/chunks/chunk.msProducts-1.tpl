@@ -1,5 +1,8 @@
 <div class="product-card ms2_product" itemtype="http://schema.org/Product" itemscope>
-<meta itemprop="description" content="[[+description:default=`[[+pagetitle]]`]]">
+    <meta itemprop="description" content="[[+description:default=`[[+pagetitle]]`]]">
+    <meta itemprop="brand" content="[[+vendor.name]]">
+    <meta itemprop="name" content="{$pagetitle}">
+    <link itemprop="url" href="{$id | url}" />
 
     <form method="post" class="ms2_form">
         <a href="{$id | url}">
@@ -20,7 +23,6 @@
             </div>
             <div class="product-info" itemtype="http://schema.org/AggregateOffer" itemprop="offers" itemscope>
             <meta itemprop="category" content="[[#[[+parent]].pagetitle]]">
-            <meta itemprop="brand" content="[[+vendor.name]]">
             <meta itemprop="offerCount" content="1">
             <meta itemprop="price" content="[[+price:replace=` ==`]]">
             <meta itemprop="lowPrice" content="[[+old_price:replace=` ==`]]">
@@ -28,7 +30,7 @@
                 {if $owner?}
                     <span class="old_price">{$owner} {'ms2_frontend_currency' | lexicon}</span>
                 {/if}
-                <h5 itemprop="brand">[[+vendor.name]]</h5>
+                <h5>[[+vendor.name]]</h5>
                 <h6 itemprop="name">{$pagetitle}</h6>
             </div>
         </a>

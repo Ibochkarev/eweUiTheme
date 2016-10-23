@@ -12,6 +12,7 @@
         </h1>
         [[$tpl.eweUiTheme.breadcrumbs-s1]]
         [[$tpl.eweUiTheme.breadcrumbs-s2]]
+        [[$tpl.eweUiTheme.breadcrumbs-s3]]
     </div>
 
     <section class="products">

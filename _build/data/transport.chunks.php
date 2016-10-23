@@ -75,6 +75,10 @@ $tmp = array(
         'file' => 'breadcrumbs-s2',
         'description' => '',
     ),
+    'tpl.eweUiTheme.breadcrumbs-s3' => array(
+        'file' => 'breadcrumbs-s3',
+        'description' => '',
+    ),
 );
 
 // Save chunks for setup options
