@@ -22,7 +22,7 @@
                     <div class="copyright">[[!eweUiTheme.year? &start=`2016`]] &copy; [[++site_name]]</div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <img src="assets/app/img/f-logo.png" alt="">
+                    <img src="assets/components/eweuitheme/img/f-logo.png" alt="">
                 </div>
             </div>
         </div>

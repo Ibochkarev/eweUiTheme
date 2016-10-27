@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="footer-logo">
-                    <img src="assets/app/img/ewe-logo.png" alt="">
+                    <img src="assets/components/eweuitheme/img/ewe-logo.png" alt="">
                 </div>
                 <div class="nav-footer">
                     <ul>

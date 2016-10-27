@@ -59,9 +59,9 @@
             <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="footer-pay">
                     <ul class="footer-list-img">
-                        <li><img src="assets/app/img/visa.png" alt=""></li>
-                        <li><img src="assets/app/img/mastercard.png" alt=""></li>
-                        <li><img src="assets/app/img/paypal.png" alt=""></li>
+                        <li><img src="assets/components/eweuitheme/img/visa.png" alt=""></li>
+                        <li><img src="assets/components/eweuitheme/img/mastercard.png" alt=""></li>
+                        <li><img src="assets/components/eweuitheme/img/paypal.png" alt=""></li>
                     </ul>
                 </div>
             </div>

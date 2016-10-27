@@ -1,4 +1,4 @@
-<div class="breadcrumbs__wrap breadcrumbs__center">
+<div class="breadcrumbs__wrap breadcrumbs__center" style="background-image: url(assets/components/eweuitheme/img/bg-breadcrumbs.jpg);">
     <h3 class="breadcrumbs__title">[[*pagetitle]]</h3>
     [[pdoCrumbs?
         &showHome=`1`
